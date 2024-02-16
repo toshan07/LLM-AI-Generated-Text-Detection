@@ -26,6 +26,8 @@ The competition dataset comprises about **10,000 essays**, some written by stude
 
 # Leaderboard Details
 We secured **Silver medal** in this competition **ranking 125 out of 4359** participants **globally**, representing the **Top 3%** of the teams
+
+
 ![Leaderboard](leaderboard.png "leaderboard")
 
 # Data Reading
