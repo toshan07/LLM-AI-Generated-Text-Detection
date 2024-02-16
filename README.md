@@ -26,6 +26,7 @@ The competition dataset comprises about **10,000 essays**, some written by stude
 
 # Leaderboard Details
 We secured **Silver medal** in this competition **ranking 125 out of 4359** participants **globally**, representing the **Top 3%** of the teams
+![Leaderboard](leaderboard.png "leaderboard")
 
 # Data Reading
 - Data Loading and Preprocessing for Text Classification
@@ -51,7 +52,7 @@ We secured **Silver medal** in this competition **ranking 125 out of 4359** part
 7. Tokenization of test and train text data using the tokenizer.
 
 # TF-IDF
--TF-IDF Vectorization with Custom Vocabulary
+- TF-IDF Vectorization with Custom Vocabulary
 1. **Function Definition**: A dummy function `dummy` is defined, which simply returns the input text.
 2. **Vectorizer Initialization**: The `TfidfVectorizer` is initialized with specific parameters such as ngram_range, lowercase, sublinear_tf, and the use of the dummy function for tokenization and preprocessing.
 3. **Fitting and Vocabulary Extraction**: The vectorizer is fitted on tokenized texts from the test dataset, and the resulting vocabulary is extracted.
@@ -70,6 +71,7 @@ We secured **Silver medal** in this competition **ranking 125 out of 4359** part
 4. **Prediction**: The trained model is used to predict probabilities for the test dataset (`tf_test`), and the predictions are stored in the 'generated' column of the submission dataframe (`sub`).
 5. **Saving Predictions**: The submission dataframe with predictions is saved to a CSV file named 'submission.csv'.
 
+![Model](model.png "Model")
 
 # Dependencies
 - pandas
