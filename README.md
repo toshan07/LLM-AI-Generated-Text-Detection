@@ -41,8 +41,10 @@ We secured **Silver medal** in this competition **ranking 125 out of 4359** part
     - `sample_submission.csv` for sample submission format
 2. **Data Cleaning**: 
     - Duplicate rows in the training data are removed based on the 'text' column
+   
       `train = train.drop_duplicates(subset=['text'])`
     - Additionally, certain prompts are excluded from the training set.
+      
       `excluded_prompt_name_list = ['Distance learning','Grades for extracurricular activities','Summer projects']`
 3. **Preprocessing**: Preprocessing steps such as setting lowercase conversion and defining the vocabulary size are applied.
 
